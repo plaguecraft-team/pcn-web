@@ -137,3 +137,7 @@ button {
 button:hover {
   border: 2px solid black;
 }
+
+#checkbox{
+  display:inline;
+}
