@@ -32,7 +32,10 @@
 
 <h2>Uh oh.. you hit a bump!</h2>
     <p>The content you requested doesn't exist! What'd you break..<br>
-        We really think you should <a href="home">go back now..</a> It's getting kinda awkward..</p>
+        We really think you should go back now.. It's getting kinda awkward..</p>
+            <button class="button" onclick="history.back()"> 
+        Click here to go back 
+    </button><br><br>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/43-Tjd6DNa0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -62,5 +65,17 @@
 <style type="text/css">
     body{
         text-align:center;
+    }
+
+    .button{
+  background-color: #45474a; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
     }
 </style>
