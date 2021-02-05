@@ -2,6 +2,16 @@
 	float:center;
 }
 
+#intro{
+	padding-left:90px;
+}
+
+hr{
+	width:100px;
+	border-color:white;
+
+}
+
 .center {
   display:table;
   margin:0 auto;
