@@ -32,18 +32,18 @@
 <hr>
 
 <div class="container">
-  <form method="POST" action="https://api.plaguecraft.xyz/website/files/php-scripts/notification/start-contact.php/">
+  <form method="POST" action="https://api.plaguecraft.xyz/webhooks/init/start-contact.php">
     <div><label>Where do you need support?</label></div>
-    <div><input type="text" name="myService" class="form-control" /></div>
+    <div><input type="text" name="myService" class="form-control" required /></div>
     <div><label>Your Name:</label></div>
-    <div><input type="text" name="myName" class="form-control" /></div>
+    <div><input type="text" name="myName" class="form-control" required /></div>
     <div><label>Your Email:</label></div>
-    <div><input type="text" name="myEmail" class="form-control" /></div>
+    <div><input type="text" name="myEmail" class="form-control" required /></div>
     <div><label>Discord Name & Tag:</label></div>
-    <div><input type="text" name="myDiscord" class="form-control" /></div>
+    <div><input type="text" name="myDiscord" class="form-control" required /></div>
 
     <div><label>Message:</label></div>
-    <div><textarea cols="40" rows="5" name="myMessage" class="form-control"></textarea></div>
+    <div><textarea cols="40" rows="5" name="myMessage" class="form-control" required></textarea></div>
     <div class="float-center mt-2">
       <input type="submit" value="Send" class="btn btn-primary" />
     </div>
