@@ -39,6 +39,13 @@ a{
 	color:#e3dfde;
 }
 
+.ref{
+	float:right;
+	font-size:10px;
+	padding-top:200px;
+	padding-right:90px;
+}
+
 /*Footer Attributes*/
 .footer-p{
 	color:white;
