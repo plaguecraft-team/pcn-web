@@ -49,6 +49,10 @@ a{
 	color:#e3dfde;
 }
 
+a:hover{
+	color:white;
+}
+
 .ref{
 	float:right;
 	font-size:10px;
