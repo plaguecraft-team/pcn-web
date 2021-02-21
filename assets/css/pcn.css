@@ -1,14 +1,15 @@
+}
 #logo{
-	float:center;
+  float:center;
 }
 
 #intro{
-	padding-left:90px;
+  padding-left:90px;
 }
 
 hr{
-	width:100px;
-	border-color:white;
+  width:100px;
+  border-color:white;
 
 }
 
@@ -21,8 +22,8 @@ hr{
 }
 
 body{
-	background-color:#9ca19f;
-	text-align:center;
+  background-color:#9ca19f;
+  text-align:center;
 }
 
   h1{
@@ -41,33 +42,33 @@ body{
   }
 
   i{
-  	font-size:20px;
+    font-size:20px;
   }
 
   body p{
-	text-align:center;
-	color:white;
-	font-size:20px;
+  text-align:center;
+  color:white;
+  font-size:20px;
 }
 
 a{
-	color:#e3dfde;
+  color:#e3dfde;
 }
 
 a:hover{
-	color:white;
+  color:white;
 }
 
 .ref{
-	float:right;
-	font-size:10px;
-	padding-top:200px;
-	padding-right:90px;
+  float:right;
+  font-size:10px;
+  padding-top:200px;
+  padding-right:90px;
 }
 
 /*Footer Attributes*/
 .footer-p{
-	color:white;
+  color:white;
 }
 .footer-basic {
   padding:40px 0;
